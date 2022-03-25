@@ -216,3 +216,49 @@ span{
 .contact-form-btn:hover{
     background: #f9004d
 }
+.iconbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 1em;
+    width: 6em;
+    height: 6em;
+  }
+  
+  /* .iconbox.img {
+    width: 4em;
+    height: 4em;
+    border-radius: 3em;
+    align-items: center;
+  } */
+  .iconbox a{
+      width:80px;
+      height:80px;
+      text-align: center; 
+      text-decoration: none;
+      color: #f9004d;
+      box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0, 0.5 );
+      margin: 0 30px;
+      border-radius: 50%;
+  }
+  .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f25;
+  }
+  .copyright {
+      background-color: #1f1f25;
+      text-align: center;
+      color: #ddd;
+      font-family: monospace;
+
+  }
+
+  .span{
+      color: #f9004d;
+  }
+  
